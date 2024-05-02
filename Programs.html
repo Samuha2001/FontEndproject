@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>International University</title>
+  <link rel="stylesheet" href="c.css">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      background-color: beige;
+      background-size: cover;
+      background-position: center;
+      background-attachment: fixed;
+      color: #000;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+    }
+
+    header {
+      background-color: #1a1a1a;
+      color: #fff;
+      padding: 15px 0;
+      text-align: center;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      position: fixed;
+      top: 0;
+      width: 100%;
+      z-index: 1000;
+    }
+
+    .logo {
+      font-size: 2em;
+      display: flex;
+      align-items: center;
+    }
+
+    .logo i {
+      margin-right: 5px;
+    }
+
+    .menu ul {
+      display: flex;
+      list-style-type: none;
+    }
+
+    .menu ul li {
+      margin: 0 10px;
+    }
+
+    .menu ul li a {
+      text-decoration: none;
+      color: #fff;
+      font-weight: bold;
+      transition: 0.4s ease-in-out;
+    }
+
+    .menu ul li a:hover {
+      color: #ff7200;
+    }
+
+    main {
+      color: #000;
+      margin-top: 80px;
+      text-align: center;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 20px;
+    }
+
+    section {
+      background-color: rgba(0, 0, 0, 0.8);
+      color: #fff;
+      padding: 20px;
+      border-radius: 5px;
+      width: 300px;
+      margin-bottom: 20px;
+      text-align: left;
+    }
+
+    button {
+      background-color: #ff7200;
+      color: #fff;
+      border: none;
+      padding: 10px 20px;
+      font-size: 16px;
+      border-radius: 5px;
+      cursor: pointer;
+      transition: background-color 0.4s ease-in-out;
+    }
+
+    button:hover {
+      background-color: #ff9200;
+    }
+
+    footer {
+      background-color: #1a1a1a;
+      color: #fff;
+      text-align: center;
+      padding: 10px 0;
+      position: fixed;
+      bottom: 0;
+      width: 100%;
+    }
+
+    .program-icon {
+      width: 80px;
+      height: 80px;
+      margin-bottom: 10px;
+    }
+
+    .program-title {
+      font-size: 1.5em;
+      margin-bottom: 10px;
+    }
+
+    .program-description {
+      font-size: 1.1em;
+      margin-bottom: 20px;
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <div class="logo">
+      <i class="fas fa-university"></i> International University
+    </div>
+    <nav class="menu">
+      <ul>
+        <li><a href="./Home.html">Home <i class="fas fa-home"></i></a></li>
+        <li><a href="./Contact.html">Contact Us <i class="fas fa-info-circle"></i></a></li>
+        <li><a href="./Programs.html">Programs <i class="fas fa-graduation-cap"></i></a></li>
+        <li><a href="./StudentLife.html">Student Life <i class="fas fa-users"></i></a></li>
+        <li><a href="#">Research</a></li>
+        <li><input type="text" placeholder="Search"></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <section>
+      <img src="IT.png" alt="IT Icon" class="program-icon">
+      <h2 class="program-title">Information Technology</h2>
+      <p class="program-description">Information technology (IT) covers building communications networks, safeguarding data, and troubleshooting computer problems.</p>
+      <button>Learn More</button>
+    </section>
+    <section>
+      <img src="nurse-icon.jpg" alt="Nursing Icon" class="program-icon">
+      <h2 class="program-title">Nursing</h2>
+      <p class="program-description">A nursing major prepares students for nursing administration, research, and clinical nursing.</p>
+      <button>Learn More</button>
+    </section>
+    <section>
+      <img src="Th.png" alt="Theology Icon" class="program-icon">
+      <h2 class="program-title">Theology</h2>
+      <p class="program-description">Theology is the study of religion, faith, and God's nature.</p>
+      <button>Learn More</button>
+    </section>
+    <section>
+      <img src="Sc.png" alt="Science Icon" class="program-icon">
+      <h2 class="program-title">Science</h2>
+      <p class="program-description">A science degree covers fields related to science, technology, engineering, or mathematics.</p>
+      <button>Learn More</button>
+    </section>
+  </main>
+  <footer>
+    &copy; 2024 Sameh Gerges
+  </footer>
+</body>
+
+</html>
